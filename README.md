@@ -42,7 +42,7 @@ docker images
 docker run -d -p 5000:5000 assignment1-flask-app
 [9] Lookup IP of the assignment1-flask-app container.
 docker-machine ls
-# OR 
+OR 
 docker-machine ip default
 NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER    ERRORS
 default   *        virtualbox   Running   tcp://192.168.99.100:2376           v1.11.1   
